@@ -1,0 +1,1215 @@
+/*
+Theme Name: Uncode Child
+Description: Child theme for Uncode theme
+Author: Undsgn™
+Author URI: http://www.undsgn.com
+Template: uncode
+Version: 2.0.1 +
+Text Domain: uncode
+*/
+
+.mobileonly, .tabletandmobileonly {
+		display: none;
+	}
+
+/**/
+.menu-smart ul > li > a, .menu-smart ul > li > ul > li > a {
+    padding: 0px;
+}
+
+.main-wrapper, .main-wrapper p, .main-wrapper h1, .main-wrapper h2, .main-wrapper h3, .main-wrapper h4, .main-wrapper h5 {
+	line-height: 1.8 !important;
+}
+.main-wrapper li {
+	line-height: 2.4 !important;
+}
+
+.page .gform_fields li {
+    list-style-position: initial !important;
+    margin: initial !important;
+}
+
+.sidebar-widgets a.primary-button-style, .sidebar-widgets .post-content a.btn-container, .sidebar-widgets .sidebar-widgets a.primary-button-style, .sidebar-widgets .pum-content a.primary-button-style {
+    width: 100%;
+}
+
+body div#ui-datepicker-div[style] {
+    z-index: 9999999999!important;
+}
+
+.page .post-content li {
+    list-style-position: inside;
+	margin: 2% 3%;
+}
+
+.knowledge {
+	padding: 40px;
+}
+.knowledge h2 {
+	margin-top: 0;
+}
+
+.post-content ul:not(.no-list) {
+    padding: 0;
+}
+
+/**/
+.combined-locations-appt {
+	text-align: center;
+	width: 100% !important;
+	margin-top: 0;
+}
+.combined-locations-appt a {
+	width: 100%;
+}
+.combined-locations-appt a:first-child {
+	margin-top: 0;
+}
+.combined-locations-appt a:last-child {
+	margin-top: 2%;
+}
+#rotator-custom_html-6 {
+    margin-top: 10%;
+}
+
+.meet_the_team_widget h2, .meet_the_team_widget h3, .meet_the_team_widget h4, .meet_the_team_widget h5, .meet_the_team_widget p {
+	margin-bottom: 5%;
+}
+.meet_the_team_widget {
+	text-align: center;
+}
+
+/*FORM PADDING*/
+.main-theme-cta-color .gform_wrapper {
+	padding: 40px;
+}
+/*TOP OFFICE INFO MENU*/
+.topctas {
+	font-family: 'Lora', serif;
+	text-align: center;
+}
+.topctas a:hover {
+	color:#fff;
+}
+/*BUTTON STYLES*/
+/*Center Align for Features and colors of main buttons. Designers change these colors to whatever color you want*/
+.post-content a.btn-container, .post-content a.primary-button-style, .post-content a.primary-button-style-inverted, .main-theme-cta-color a.primary-button-style-inverted, .pum-content a.primary-button-style, .pum-content a.primary-button-style-inverted {
+	display:block;
+	text-align:center;
+	border:0;
+	margin:0 auto 3% auto;
+	padding:20px;
+	width:100%;
+}
+a.primary-button-style, .post-content a.btn-container, .sidebar-widgets a.primary-button-style, .post-content a.primary-button-style, .post-content a.primary-button-style-inverted, .sidebar-widgets a.primary-button-style-inverted, .main-theme-cta-color a.primary-button-style-inverted, .pum-content a.primary-button-style, .pum-content a.primary-button-style-inverted {
+	cursor: pointer;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 100%;
+    padding: 10px 20px;
+    font-style: normal;
+    text-align: center;
+    vertical-align: middle;
+    margin:0 auto;
+	font-weight:bold;
+}
+a.primary-button-style:hover, .post-content a.primary-button-style:hover, .post-content a.btn-container:hover, .sidebar-widgets a.primary-button-style:hover, .post-content a.primary-button-style-inverted:hover, .main-theme-cta-color a.primary-button-style-inverted:hover, .pum-content a.primary-button-style:hover, .pum-content a.primary-button-style-inverted:hover {
+	font-weight:bold !important;
+	transition-timing-function:ease-in !important;
+	transition-duration: 30ms !important;
+	border: 0 !important;
+}
+/*----------BREADCRUMBS COLOR----------*/
+.page .row-breadcrumb.row-breadcrumb-light, .archive .row-breadcrumb.row-breadcrumb-light, .single .row-breadcrumb.row-breadcrumb-light {
+	text-transform: uppercase;
+	padding: 10px 30px;
+}
+
+/*HEADINGS COLORS*/
+h2.subhead, .seo-cta h2, page .post-content h2.subhead {
+	text-transform:none !important;
+	font-weight: normal !important;
+}
+.home .page .post-content h2, .home .page .post-content h3, .home .page .post-content h4, .home .page .post-content h5, .home .page .post-content h6 {
+	font-family:'Lora';
+	text-transform:none;
+	font-weight:normal;
+}
+.page .post-content h2, .page .post-content h3, .page .post-content h4, .page .post-content h5, .page .post-content h6, .single .post-content h2, .single .post-content h3, .single .post-content h4, .single .post-content h5, .single .post-content h6 {
+	/*font-family:'Oswald';*/
+	letter-spacing:1px;
+	font-weight:bold;
+}
+/*FOOTER SERVICES/CTAS SECTION*/
+.footer-ctas {
+	margin: 0 auto;
+}
+/*Scroll to top*/
+.footer-scroll-top {
+    z-index: 999999;
+}
+
+/*To make footer row full width or not*/
+.vc_row.footer-offers.row-container.boomapps_vcrow, .vc_row.footer-ctas.row-container.boomapps_vcrow .row.unequal.row-parent {
+	padding: 0;
+}
+.footer-offers .row.unequal.row-parent, .vc_row.footer-ctas.row-container.boomapps_vcrow .row.unequal.row-parent {
+    padding: 0;
+}
+
+/**/
+body,p,li,dt,dd,dl,address,label,small,pre,code {
+	line-height: 2 !important;
+}
+
+
+/*CLEAR DIV*/
+.clear {
+	height:15px;
+	display:block;
+	clear:both;
+}
+
+/*Add margin underneath featured images on blog*/
+.post-content .wp-post-image {
+    margin-bottom: 5%;
+}
+
+
+
+/*----------DIRECTIONS FORM----------*/
+.form-inline { 
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+/* Add some margins for each label */
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+/* Style the input fields */
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+/* Style the submit button */
+.form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+}
+.form-inline button:hover {
+  background-color: royalblue;
+}
+
+
+
+
+/*----------TOP OFFICE INFO MENU----------*/
+.topctas a {
+	padding:0;
+	display:block;
+}
+.topctas, .topctas a, .header-dropdown-locations select.locator-locations, .header-dropdown-phone select.locator-phone {
+	font-size:105%;
+	vertical-align:middle;
+}
+/*----------TOP OFFICE INFO MENU----------*/
+
+
+/*CTAs headings*/
+h3.main-home-cta {
+	text-align: center !important;
+	font-weight: bold !important;
+}
+/*Phone Navigation Dropdown*/
+ul.phone-dropdown {
+	width:100%;
+}
+#multiple-phone-dropdown, #multiple-appointment-dropdown {
+	z-index:9999;
+	margin:0 auto;
+	cursor: pointer;
+}
+#multiple-phone-dropdown a, #multiple-appointment-dropdown a {
+  text-decoration: none;
+	cursor: pointer;
+}
+
+#multiple-phone-dropdown ul, #multiple-appointment-dropdown ul {
+    list-style: none;
+    margin: 0;
+    font-size:120%;
+	z-index:9999;
+	text-align:center;
+}
+
+#multiple-phone-dropdown i.fa.fa-arrow-circle-right, #multiple-appointment-dropdown i.fa.fa-arrow-circle-right {
+    color: #fff !important;
+}
+
+#multiple-phone-dropdown span.multiple-phone-titles, #multiple-appointment-dropdown span.multiple.appointment-titles {
+	color:#fff;
+}
+
+#multiple-phone-dropdown li, #multiple-appointment-dropdown li {
+    display: block;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+	margin:0 auto;
+  transition-duration: 0.5s;
+}
+  
+#multiple-phone-dropdown i, #multiple-phone-dropdown li a, #multiple-appointment-dropdown i, #multiple-appointment-dropdown li a {
+  color: #fff;
+}
+
+#multiple-phone-dropdown li:hover, #multiple-phone-dropdown li:focus-within, #multiple-phone-dropdown li:active, #multiple-appointment-dropdown li:hover, #multiple-appointment-dropdown li:focus-within, #multiple-appointment-dropdown li:active {
+    cursor: pointer;
+}
+
+#multiple-phone-dropdown li:focus-within a, #multiple-appointment-dropdown li:focus-within a {
+  outline: none;
+}
+
+#multiple-phone-dropdown ul li ul, #multiple-appointment-dropdown ul li ul {
+    visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+    position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 5px;
+    left: 0;
+  display: none;
+	border:1px solid #fff;
+	padding:0;
+}
+
+#multiple-phone-dropdown ul li:hover > ul, #multiple-phone-dropdown ul li:focus-within > ul, #multiple-phone-dropdown ul li ul:hover, #multiple-phone-dropdown ul li ul:focus, #multiple-appointment-dropdown ul li:hover > ul, #multiple-appointment-dropdown ul li:focus-within > ul, #multiple-appointment-dropdown ul li ul:hover, #multiple-appointment-dropdown ul li ul:focus {
+   visibility: visible;
+   opacity: 1;
+   display: block;
+}
+
+#multiple-phone-dropdown ul li ul li, #multiple-appointment-dropdown ul li ul li {
+    clear: both;
+  	width: 100%;
+	margin: 0 auto;
+}
+
+#multiple-phone-dropdown ul li ul li a, #multiple-appointment-dropdown ul li ul li a {
+  color:#fff;
+}
+#multiple-phone-dropdown ul li ul li a:hover, #multiple-appointment-dropdown ul li ul li a:hover {
+  font-weight:bold;
+	color:#fff !important;
+}
+/*Fixes multiple locations footer hover*/
+footer .footer-center {
+	z-index:1 !important;
+}
+.multiple-locations-footer {
+	z-index:2;
+}
+/*Header dropdown for multiple locations*/
+.head-1-cta, .head-2-cta, .head-3-cta {
+	vertical-align:middle;
+}
+/**/
+
+
+
+li {
+    list-style-position: inside;
+}
+
+
+
+
+/*----------INCREASE SIZE OF CONTENT AREA FOR DESKTOP 84% OR 100%----------*/
+.post-content.style-light, .single .row-container .post-content.std-block-padding {
+    max-width: 94%;
+	margin: 0 auto;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+.single .col-lg-3 {
+    padding-right: 40px !important;
+}
+/*----------INCREASE SIZE OF CONTENT AREA FOR DESKTOP----------*/
+
+
+
+
+/*INCREASE MARGIN BOTTOM LOGO*/
+#main-logo .navbar-brand img {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+
+/*----------MAIN THEME CALL TO ACTION----------*/
+.main-theme-cta-color { 
+	/*border-radius:10px;*/
+	padding: 10px;
+}
+/*----------MAIN THEME CALL TO ACTION----------*/
+
+
+
+
+/*----------NAVBAR Z-INDEX FIX----------*/
+.navbar-nav .menu-primary-inner {
+    z-index: 10px;
+}
+/*----------NAVBAR Z-INDEX FIX----------*/
+
+
+
+
+
+/*GOOGLE REVIEWS STYLING*/
+/*Google Reviews non-widget below*/
+#map-plug {display:none;}
+
+#google-reviews li {
+	list-style-type:none;
+}
+.review-item {
+border:0;
+margin:0 auto;
+padding:1em;
+flex: 1 1 20%;
+}
+
+/*Fix for layout of Google Reviews after update 11/07/2018 BELOW */
+.gpr-header-content-wrap.gpr-clearfix {
+    font-size: 200%;
+    text-align: center;
+}
+.gpr-review {
+    background: #eee;
+    padding: 20px;
+    text-align: center;
+    margin: 5% auto;
+	border-radius:3%;
+	border:5px solid #ccc;
+}
+/*Fix for layout of Google Reviews after update 11/07/2018 ABOVE */
+
+.review-meta, .review-stars {text-align:center; font-size:115%;}
+.review-author { text-transform: capitalize; font-weight:bold; }
+.review-date {opacity:.6; display:block;}
+.review-text {  line-height:1.55; text-align:left; max-width:32em; margin:auto;}
+
+ 
+
+.review-stars ul {
+display: inline-block;
+list-style: none;
+margin:0; padding:0;
+}
+
+.review-stars ul li {
+float: left;
+margin-right: 1px;
+line-height:1;
+}
+
+.review-stars ul li i {
+  color: #E4B248;
+  font-size: 1.4em;
+  font-style:normal;
+}
+.review-stars ul li i.inactive { color: #c6c6c6;}
+.star:after { content: "\2605"; }
+
+/*Google Reviews non-widget above*/
+
+/*Google Reviews Styling*/
+#map-plug {
+	display:none !important;
+}
+
+.home .page #google-reviews {
+	/*display:flex;*/
+	flex-wrap:wrap !important;
+	display: flex !important;
+	/*display: grid !important;*/
+	/*grid-template-columns: repeat( auto-fit, minmax(320px, 1fr));*/
+}
+
+.page #google-reviews {
+	display: grid !important;
+	flex-wrap:wrap !important;
+}
+
+.review-item {
+border:solid 1px rgba(190,190,190,.35) !important;
+margin:0 auto !important;
+padding:1em !important;
+flex: 1 1 20% !important;
+	width: 100% !important;
+}
+
+/*----------*/
+.review-meta, .review-stars {
+	text-align:center !important; 
+	font-size:115% !important;
+}
+.review-author {
+	text-transform: capitalize !important; 
+	font-weight:bold !important;
+}
+.review-date {
+	opacity:.6 !important; 
+	display:block !important;
+}
+.review-text {
+	line-height:1.55 !important; 
+	text-align:left !important; 
+	max-width:32em !important; 
+	margin:auto !important;
+}
+.review-stars ul {
+	display: inline-block !important;
+	list-style: none !important;
+	margin:0 !important; 
+	padding:0 !important;
+}
+.review-stars ul li {
+	float: left !important;
+	line-height:1 !important;
+	margin: 0 auto 1px !important;
+}
+.review-stars ul li i {
+  color: #E4B248 !important;
+  font-size: 1.4em !important;
+  font-style:normal !important;
+}
+.review-stars ul li i.inactive {
+	color: #c6c6c6 !important;
+}
+.star:after {
+	content: "\2605" !important;
+}
+
+.btn-greviews {
+	background:#143E6C !important;
+	color:#fff !important;
+	padding:2% !important;
+	margin-top:3% !important;
+	display:block !important;
+	text-align:center !important;
+}
+
+.btn-leave-greviews {
+	background:#E3EFF1 !important;
+	color:#000 !important;
+	padding:2% !important;
+	display:block !important;
+	text-align:center !important;
+}
+/*----------*/
+
+
+
+
+
+
+
+
+/*----------ADD PADDING TO UNDER MENU----------*/
+body.hmenu-center-split .menu-horizontal .menu-smart > li {
+    vertical-align: baseline;
+	padding-bottom:10px;
+}
+body.hmenu-position-center .menu-horizontal ul.menu-primary-inner, body.hmenu-position-right .menu-horizontal ul.menu-primary-inner, body.hmenu-position-left .menu-horizontal ul.menu-primary-inner {
+    margin-top: 10px;
+}
+ul.drop-menu.sm-nowrap {
+    margin-top: -10px !important;
+}
+
+body.hmenu-center-double .menu-horizontal ul.menu-primary-inner {
+    margin-top: 60px;
+}
+body.hmenu-position-center .menu-horizontal .menu-smart > li {
+    vertical-align: baseline;
+	padding-bottom:10px;
+}
+.main-container .row-inner > div {
+	padding:10px;
+}
+/*----------ADD PADDING TO UNDER MENU----------*/
+
+/*Fixing Social on Menu*/
+body.hmenu .menu-container .nav.navbar-nav.navbar-nav-last {
+    display: table-cell !important;
+}
+body[class*=hmenu-]:not(.hormenu-position-right) .menu-borders .navbar-nav:not(.navbar-cta) + .navbar-nav-last > *:first-child {
+	margin: 0 auto;
+    padding: 10px;
+    float: none;
+}
+body[class*=hmenu-] .navbar-nav-last {
+    text-align: left;
+}
+
+
+
+
+/*Submenu Items Regular Weight*/
+.menu-smart ul li > a {
+	font-weight: 400 !important;
+}
+
+
+
+/*----------ALTERNATIVE SETUP----------*/
+#alternative-setup {
+	display:none;
+}
+/*----------ALTERNATIVE SETUP----------*/
+
+
+
+
+
+/*----------SUBHEAD----------*/
+.home-page-side-side-head {
+	text-align: center !important;
+	font-weight: bold !important;
+}
+.home-page-side-side-subhead {
+	/*font-family:'Oswald';*/
+	letter-spacing: 2px !important;
+	font-weight: lighter !important;
+	text-align: center !important;
+	line-height: 140% !important;
+}
+.subhead {
+	font-family: 'Lora' !important;
+	font-weight: lighter;
+	font-size: 100% !important;
+	line-height: 200% !important;
+	letter-spacing: 1px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+/*----------SUBHEAD----------*/
+
+
+
+
+/*
+.page .post-content h2 {
+	line-height:140%;
+}
+.page .post-content h3 {
+	line-height:170%;
+}
+*/
+
+
+
+
+/*----------SEO CTA----------*/
+#seo-cta {
+	text-align: center;
+}
+#seo-cta h2, #seo-cta h2.whitetext, #seo-cta h2.white-text, #seo-cta h3.whitetext, #seo-cta h3.white-text {
+	margin-top: 0;
+	padding-top: 0;
+	/*line-height: 180% !important;*/
+}
+/*----------SEO CTA----------*/
+
+
+/*----------BOTTOM MENU----------*/
+.bottomMenu a.primary-button-style, .bottomMenu .post-content a.btn-container, .bottomMenu .sidebar-widgets a.primary-button-style, .bottomMenu .pum-content a.primary-button-style {
+    width: 90% !important;
+}
+.bottomMenu {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  z-index: 999;
+}
+.bottomMenu p {
+	margin: 20px auto;
+	vertical-align: middle;
+}
+.bottomMenu .cta-container {
+	display: block !important;
+	height: inherit;
+}
+.cta-left, .cta-center, .cta-right { 
+	text-align: center; 
+	width: 33.3%;
+	float: left;
+}
+/*BOTTOMMENU*/
+.bottomMenu div a:hover {
+text-decoration: none;
+}
+#hide-now {
+    margin-top: -35px;
+    font-size: 100%;
+    float: left;
+    padding: 0 10px;
+    position: absolute;
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+/*----------BOTTOM MENU----------*/
+
+
+
+
+/*----------DECREASE PADDING OF CONTENT----------*/
+.main-container .row {
+    width: 100%;
+    table-layout: fixed;
+}
+.page .main-container .row-container .row.unequal.col-no-gutter.full-width.row-parent, .uncell.boomapps_vccolumn.single-block-padding {
+    padding: 10px 0;
+}
+.main-container .row-container .row-parent {
+	padding: 36px 20px;
+}
+.main-container .row-container .double-top-padding {
+    padding-top: 10px;
+}
+.main-container .row-container .no-top-padding {
+    padding-top: 10px !important;
+}
+.post-after .row-inner .pos-top.pos-center.align_left.column_parent.col-lg-4.colored-border.boomapps_vccolumn.single-internal-gutter {
+    padding: 36px !important;
+}
+.single-block-padding {
+	padding-top: 10px;
+}
+.home .post-content .vc_row {
+    padding: 0 50px;
+}
+.post-after .vc_row {
+    padding: 0 50px;
+}
+footer .footer-center {
+    padding:10px 30px;
+}
+/*----------DECREASE PADDING OF CONTENT----------*/
+
+
+
+
+
+/*----------CENTER SERVICES LISTS ON HOMEPAGE----------*/
+.home ul.services-list {
+    text-align: center;
+    list-style-type: none;
+	padding:0;
+}
+.home ul.services-list ul.children {
+    list-style: none !important;
+}
+/*----------CENTER SERVICES LISTS ON HOMEPAGE----------*/
+
+
+
+
+
+/*----------REVIEWS CONTAINER----------*/
+.reviews-container {
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+/*----------REVIEWS CONTAINER----------*/
+
+
+
+
+
+/*----------SIDEBAR WIDGET----------*/
+.sidebar-widgets {
+    text-align: center;
+}
+.sidebar-widgets h3 {
+    margin: 0 0 3%;
+}
+.sidebar-widgets a:hover, .sidebar-widgets .fab:hover {
+	transition: color 0.5s ease;
+}
+.sidebar-widgets, .sidebar-widgets p, .sidebar-widgets li {
+	font-size: 18px;
+	line-height: 2;
+}
+/*----------SIDEBAR WIDGET----------*/
+
+
+
+/*Secondary Levels on Main Menu Normal*/
+.drop-menu a {
+    text-transform: none !important;
+}
+
+
+
+
+/*Service List in Footer*/
+.footer-services-list .services-list { 
+	list-style: none;
+	margin-top: 0;
+}
+.footer-services-list .services-list li:before {
+	content: " • ";
+}
+.footer-services-list .services-list li, ul.services-list ul.children, .footer-services-list .services-list .ul.children li {
+	display: inline;
+	margin-left: 0;
+}
+
+
+
+
+
+.icon-box-icon.fa-container.aligncenter {
+    text-align: center;
+}
+
+
+.alignleft {
+	margin: 10px 25px 15px 0;
+}
+.alignright {
+	margin: 0 25px 15px 10px;
+}
+
+
+/*Social Icons (when active)*/
+.nav.navbar-nav.navbar-social.navbar-nav-first {
+    display: inline-block;
+    height: auto;
+    margin-top: 13%;
+}
+
+
+
+
+/*----------FOOTER SERVICES/CTAS----------*/
+.footer-office-info a {
+	font-size: 19px;
+}
+/*Footer Headings*/
+.footer-office-info a {
+	display: block;
+}
+.footer-office-info .social-media-footer a {
+	display: inline-block;
+}
+.footer-office-info, .footer-office-info a, .footer-office-info h3, .footer-office-info p, .footer-office-info ul li, .footer-office-info h2 {
+    text-align: center;
+}
+
+/*----------FOOTER SERVICES/CTAS----------*/
+
+
+
+
+
+/*FIX AM/PM ON GRAVITY FORMS*/
+.gform_wrapper.gf_browser_safari .gfield_time_ampm select {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+
+
+/*GOOGLE REVIEWS STYLING*/
+/*Google Reviews non-widget below*/
+#map-plug {display:none;}
+
+#google-reviews {
+flex-wrap:wrap;
+display: flex;
+}
+
+#google-reviews li {
+	list-style-type:none;
+}
+.review-item {
+border:0;
+margin:0 auto;
+padding:1em;
+flex: 1 1 20%;
+}
+
+/*Fix for layout of Google Reviews after update 11/07/2018 BELOW */
+.gpr-header-content-wrap.gpr-clearfix {
+    font-size: 200%;
+    text-align: center;
+}
+.gpr-review {
+    background: #eee;
+    padding: 20px;
+    text-align: center;
+    margin: 5% auto;
+	border-radius:3%;
+	border:5px solid #ccc;
+}
+/*Fix for layout of Google Reviews after update 11/07/2018 ABOVE */
+
+.review-meta, .review-stars {text-align:center; font-size:115%;}
+.review-author { text-transform: capitalize; font-weight:bold; }
+.review-date {opacity:.6; display:block;}
+.review-text {  line-height:1.55; text-align:left; max-width:32em; margin:auto;}
+
+ 
+
+.review-stars ul {
+display: inline-block;
+list-style: none;
+margin:0; padding:0;
+}
+
+.review-stars ul li {
+float: left;
+margin-right: 1px;
+line-height:1;
+}
+
+.review-stars ul li i {
+  color: #E4B248;
+  font-size: 1.4em;
+  font-style:normal;
+}
+.review-stars ul li i.inactive { color: #c6c6c6;}
+.star:after { content: "\2605"; }
+
+/*Google Reviews non-widget above*/
+
+
+
+
+/*----------MOBILE STYLING----------*/
+/* enable the code between these measures */
+@media (max-width: 1475px) {
+	.tabletandmobileonly {
+		display: inherit;
+	}
+}
+
+@media (max-width: 1400px){
+	/*DECREASE SIZE OF CONTENT AREA FOR DESKTOP*/
+	.post-content.style-light {
+    max-width: 94%;
+	padding-left: 50px;
+	padding-right: 50px;
+	}
+}
+
+
+@media (max-width: 1070px) {
+	body.hmenu .menu-container .nav.navbar-nav.navbar-nav-last {
+		display: grid;
+		position: absolute;
+		top: -80px;
+		right: 50px;
+	}
+	/*----------INCREASE SIZE OF CONTENT AREA FOR DESKTOP----------*/
+	.post-content.style-light, .single .row-container .post-content.std-block-padding {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	/*----------INCREASE SIZE OF CONTENT AREA FOR DESKTOP----------*/
+}
+
+@media (max-width: 1070px) {
+body.hmenu .menu-container .nav.navbar-nav.navbar-nav-last {
+	float: right !important;
+    right: 10px;
+}
+	#seo-cta {
+		display: none !important;
+	}
+	.sidebar-widgets p {
+		display: grid !important;
+	}
+	.sidebar-widgets a.primary-button-style, .sidebar-widgets a.primary-button-style-inverted {
+	font-size: 80% !important;
+	padding: 5px !important;
+}
+}
+
+@media (max-width:1170px) {
+	/* if set to 84%*/
+	.limit-width {
+    max-width: 100%;
+	}
+}
+
+@media (min-width: 960px) and (max-width: 1300px){
+	body.hmenu-position-center .menu-horizontal ul.menu-primary-inner, body.hmenu-position-right .menu-horizontal ul.menu-primary-inner, body.hmenu-position-left .menu-horizontal ul.menu-primary-inner {
+	margin-top: 0 !important;
+	}
+	ul.drop-menu.sm-nowrap {
+    margin-top: 0 !important;
+    }
+	.menu-item {
+    padding: 0 !important;
+	}
+	.menu-container .row-menu-inner {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+	}
+	div#logo-container-mobile {
+    padding-right: 0 !important;
+	}
+	.hmenu-center-split .navbar-main > ul {
+    display: inherit;
+	}
+	.nav.navbar-nav.navbar-main {
+    display: inline-block !important;
+    max-width: 100%;
+	}
+	.col-lg-12.main-menu-container.middle {
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+		height: 50px;
+		max-height: 50px;
+	}
+}
+
+@media (min-width: 960px) {
+	.main-container .row-inner {
+		margin-left: 0;
+	}
+	.menu-wrapper .row-menu .row-menu-inner {
+    padding: 0;
+	}
+	body[class*=hmenu-]:not(.hmenu-center-split):not(.hmenu-center-double):not(.hormenu-position-right) .logo-container {
+    padding: 15px 15px 0 15px !important;
+}
+	body.hmenu .menu-container .navbar-nav {
+    display: inline-block;
+		margin-bottom: 15px;
+}
+	div#logo-container-mobile {
+    text-align: center;
+		height: auto;
+    clear: both;
+    margin: 0 auto;
+    display: block;
+	}
+}
+
+
+@media (max-width:960px) {
+	div#logo-container-mobile {
+    margin: 2% auto;
+	}
+	ul.drop-menu.sm-nowrap {
+    margin-top: 0px !important;
+	}
+	.archive div#page-header {
+    display: none !important;
+	}
+	.topctas {
+		display: none;
+	}
+	.desktop-only {
+		display: none;
+	}
+	.mobileonly {
+		display: inherit;
+	}
+	div#logo-container-mobile .navbar-header a {
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+	}
+	div#logo-container-mobile .navbar-header img {
+    margin: 0 auto;
+	}
+	/*.bottomMenu {
+		display: none !important;
+	}*/
+	.menu-wrapper .row-menu .row-menu-inner {
+    padding: 0;
+		border: 0;
+	}
+	#main-logo.navbar-header {
+    display: block;
+	}
+	body.hmenu-position-center .logo-container {
+    min-width: 100px !important;
+	}
+	/*Alternative Header*/
+	#alternative-setup {
+		display: inherit;
+		background:#fff;
+		margin:0 auto;
+		text-align: center;
+		width:100%;
+	}
+	#alternative-setup a {
+		color: #fff;
+		padding: 10px;
+		display: block;
+		white-space: nowrap;
+		margin: 0 auto;
+	}
+	#alternative-setup .col-xs-12.col-md-6.col-lg-6.aligncenter {
+		padding: 0;
+	}
+	#alternative-setup .left-cta, #alternative-setup .center-cta, #alternative-setup .right-cta {
+		width:33.3%;
+		float:left;
+	}
+	#alternative-setup .primary-button-style {
+		border-radius: 0;
+	}
+	.main-container .row-container .double-top-padding {
+		padding-top:0 !important;
+	}
+	.main-container .row-container .row-parent {
+		padding:7px;
+	}
+	.home .main-container .row-container .row-parent {
+		padding:20px;
+	}
+	/*INCREASE SIZE OF CONTENT AREA FOR MOBILE when set to 84% or 100%*/
+	.page .post-content.style-light {
+    	max-width: 94%;
+		border: none;
+		padding:10px;
+	}
+	body.hmenu-position-center .menu-horizontal ul.menu-primary-inner {
+		margin-top: 5px;
+	}
+	.mobile-menu-button.mobile-menu-button-light.lines-button.x2 {
+		display: initial;
+	}
+	.mmb-container {
+    top: 50%;
+    z-index: 9999;
+}
+	header i.fa.fa-angle-right.fa-dropdown {
+    display: none;
+}
+	/*----------INCREASE SIZE OF BLOG CONTENT AREA FOR DESKTOP----------*/
+	.post-content.style-light, .single .row-container .post-content.std-block-padding {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+	.single .col-lg-3 {
+    padding-right: 0px !important;
+}
+	/*----------INCREASE SIZE OF BLOG CONTENT AREA FOR DESKTOP----------*/
+	/*----------INCREASE PADDING OF GRAVITY FORM FOR MOBILE-BT---------*/
+	.gform_body {
+		padding: 15px !important;
+	}
+	/*----------INCREASE PADDING OF GRAVITY FORM FOR MOBILE-BT---------*/
+}
+@media (max-width:959px) {
+	.sidebar-widgets p {
+		display: block !important;
+	}
+}
+@media (max-width: 600px) {
+.alignleft, .alignright {
+	float: none;
+    text-align: center;
+    margin: 0 auto 30px !important;
+    clear: both;
+    display: block;
+}
+}
+
+@media (max-width:500px) {
+	/*.mmb-container {
+    top: 80%;
+	}*/
+	.logo-image img {
+    	max-width: 90% !important;
+	}
+	/*
+	.page h1 {
+		font-size: 150% !important;
+		line-height: 180%;
+		text-align: center;
+	}
+	.page h2 {
+		font-size: 140% !important;
+		line-height: 220% !important;
+	}
+	.page h3 {
+		font-size: 130% !important;
+		line-height: 200% !important;
+	}
+	.page h4, .page h5 {
+		font-size: 120% !important;
+		line-height: 200% !important;
+	}
+	.page .post-content .subhead {
+		line-height: 140% !important;
+	}
+	.page .post-content .home-page-side-side-head {
+		line-height:180% !important;
+	}
+	.page .post-content .home-page-side-side-subhead {
+		line-height:170% !important;
+	}
+	*/
+	/*.header-revslider {
+		display: none;
+	}*/
+	.archive div#page-header {
+		display: none;
+	}
+	.home .post-content .vc_row {
+    padding: 0 10px;
+	}
+	#alternative-setup .phone-alternative-setup, #alternative-setup .request-appt-alternative-setup, #alternative-setup .directions-alternative-setup {
+		width:33.3% !important;
+		float:left;
+		margin:0 auto;
+	}
+	#alternative-setup {
+		padding-bottom:0;
+	}
+	.post-after .vc_row {
+    padding: 0 10px;
+    }
+	.logo-container .logo-image img {
+    height: auto;
+    max-width: 200px;
+		/*padding-bottom:20px;*/
+	}
+	a.primary-button-style, .post-content a.btn-container, .sidebar-widgets a.primary-button-style, .post-content a.primary-button-style, .post-content a.primary-button-style-inverted, .sidebar-widgets a.primary-button-style-inverted, .post-content .main-theme-cta-color a.primary-button-style-inverted, .pum-content a.primary-button-style, .pum-content a.primary-button-style-inverted {
+		width: 100%;
+	}
+}
+
+/*----------MOBILE STYLING----------*/

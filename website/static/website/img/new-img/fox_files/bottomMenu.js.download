@@ -1,0 +1,45 @@
+// Hide cta-footer on on scroll down
+$(function() {
+    $("#hide-now").on('click', function () { 
+        $(".bottomMenu").slideUp("slow").addClass('hide');
+    });
+});
+$(document).scroll(function () {
+    var y = $(this).scrollTop();   
+    if ( ! $(this).hasClass('hide') ) {
+        if (y > 10) {
+            $('.bottomMenu').fadeIn();
+        } else {
+            $('.bottomMenu').fadeOut();
+        }
+    }
+});
+
+
+$(document).ready(function(){
+        //Get current time
+        var currentTime = new Date().getTime();
+        //Add hours function
+        Date.prototype.addHours = function(h) {    
+           this.setTime(this.getTime() + (h*60*60*1000)); 
+           return this;   
+        }
+        //Get time after 24 hours
+        var after24 = new Date().addHours(10).getTime();
+        //Hide div click
+        $('#hide-now').click(function(){
+            //Hide div
+            $(this).hide();
+            //Set desired time till you want to hide that div
+            localStorage.setItem('desiredTime', after24); 
+        });
+        //If desired time >= currentTime, based on that HIDE / SHOW
+        if(localStorage.getItem('desiredTime') >= currentTime)
+        {
+            $('#cta-home').hide();
+        }
+        else
+        {
+            $('#cta-home').show();
+        }
+});
